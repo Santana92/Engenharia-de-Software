@@ -86,13 +86,10 @@ import java.util.List;
             // Define uma bebida no sujeito
             Bebidas bebida = new Bebidas("Coca-Cola");
             subject.setBebida(bebida);
-        
-            // Resultado esperado: os observadores receberão a notificação da nova bebida
-        
+               
             // Modifica a bebida no sujeito
             Bebidas novaBebida = new Bebidas("Cafe Expresso");
             subject.setBebida(novaBebida);
         
-            // Resultado esperado: os observadores receberão a notificação da nova bebida
         }
     }
